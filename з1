@@ -1,0 +1,13 @@
+text = "hello, word of word"
+chars_popularity = {} #буквы
+words_popularity = {} #слова
+
+#словарь символов
+for chars in text:
+    chars_popularity[chars] = text.count(chars)
+print(chars_popularity)
+
+text = text.split() #количество слов
+for words in text:
+    words_popularity[words] = text.count(words)
+print(words_popularity)
