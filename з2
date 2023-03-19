@@ -1,0 +1,9 @@
+translate = {'M':1000, 'CM':900, 'D':500, 'CD':400, 'C':100, 'XC':90, 'L':50, 'XL':40, 'X':10, 'IX':9, 'V':5, 'IV':4,'I':1}
+x=2900
+number = ''
+mnoj = 0
+for a, b in translate.items():
+    while (x > 0) and (x >= b):
+        number = number + a
+        x = x-b
+print(number)
