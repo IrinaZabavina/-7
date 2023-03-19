@@ -1,0 +1,3 @@
+book = {'Petr': '546810', 'Katya': '241815'}
+book_time = dict(zip(book.values(),book.keys()))
+print(book_time)
