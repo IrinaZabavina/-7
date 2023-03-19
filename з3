@@ -1,0 +1,6 @@
+valuties = {'Sberbank': 55.8, 'VTB24':53.91, 'Gazprom':52.34, 'MTSBank':51.8, '24Bank':55.4}
+value = min(valuties.values())
+for name, znach in valuties.items():
+    if znach == value:
+        print(name,sep="", end="")
+        print(" ->",value)
